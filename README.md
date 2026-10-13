@@ -101,23 +101,7 @@ This report researches **three practical project ideas** for real-world business
 
 ---
 
-## 👤 Author & Internship
 
-<div align="center">
-
-<img src="public/images/profile.jpg" alt="Muhammad Yasir" width="320"/>
-
-</div>
-
-| | |
-|---|---|
-| 👨‍💻 **Prepared By** | Muhammad Yasir |
-| 🎓 **Internship** | AI Automation Internship |
-| 🏢 **Organization** | Zayan Soft Tech |
-| 📌 **Task** | Internship Task #04 (Research & Planning) |
-| 📅 **Submission Date** | 14 October 2026 |
-
----
 
 ## 🌐 Live Demo
 
@@ -409,6 +393,9 @@ The ratings are the **author's qualitative judgement**, not measured results.
 
 ### 📉 Visual Summary *(a visual reading aid of the table above, not measured data)*
 
+<br>
+
+
 ```text
 MVP feasibility          1 IT Academy  ██████░░░░  Moderate
                          2 Clinic      ████░░░░░░  Moderate to lower
@@ -423,6 +410,9 @@ risk  (higher = riskier) 2 Clinic      ██████████  Highest
                          3 Retail      ██░░░░░░░░  Lower
 ```
 
+<br>
+
+
 ---
 
 ## 🏆 Recommended Priority
@@ -434,6 +424,8 @@ risk  (higher = riskier) 2 Clinic      ██████████  Highest
 > **🥈 Project #1** is a natural second step, since its operations-first scope is also well defined.
 > **🥉 Project #2** needs the most careful planning because of patient privacy and the need for dependable slot booking.
 
+<br>
+
 ```mermaid
 flowchart LR
     S(["Start"]) --> P3["🥇 #3 Retail Inventory<br/>narrowest, lowest risk"]
@@ -442,6 +434,8 @@ flowchart LR
     classDef g fill:#0b7d70,stroke:#0b3238,color:#fff;
     class P3,P1,P2 g
 ```
+
+<br>
 
 This priority is a **starting recommendation**. It may change after requirements are gathered from actual businesses and the budget, skills and data-protection needs are known.
 
@@ -472,6 +466,7 @@ flowchart TB
     P --> N
     N --> H["Low-cost hosting + backups"]
 ```
+<br>
 
 ---
 
@@ -592,14 +587,17 @@ All sources are **official product pages**, reviewed on **12 Oct 2026**. Product
 | [6] | Square for Retail | Retail inventory and point-of-sale features (Project #3) | https://squareup.com/us/en/point-of-sale/retail |
 | [7] | Zoho Inventory | Inventory control with reorder-point alerts (Project #3) | https://www.zoho.com/inventory/ |
 
+<br>
+
 ---
 
 ## 🔗 Previous Project & Connect
 
 | 📁 Previous project | Link |
 |---|---|
-| Assignment 01 — Dashboard | https://yasirawan4831.github.io/futuristic-links-dashboard/ |
-| Assignment 01 — Repository | https://github.com/YasirAwan4831/ai-automation-research-Zayan-Soft-Tech |
+| Assignment 01 — Dashboard | https://ai-automation-research.vercel.app/ |
+| Assignment 02 — Dashboard | https://customer-inq-automation-workflow.vercel.app/ |
+| Assignment 03 — Dashboard | https://ai-lead-qualification-requirement-auto.vercel.app/ |
 
 <div align="center">
 
@@ -609,6 +607,7 @@ All sources are **official product pages**, reviewed on **12 Oct 2026**. Product
 <a href="https://yasirawaninfo.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-yasirawaninfo-0b7d70?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 
 </div>
+<br>
 
 ---
 
@@ -624,6 +623,25 @@ All sources are **official product pages**, reviewed on **12 Oct 2026**. Product
 <div align="center">
 
 <br/>
+
+## 👤 Author & Internship
+
+<div align="center">
+
+<img src="public/images/profile.jpg" alt="Muhammad Yasir" width="320"/>
+
+</div>
+
+| | |
+|---|---|
+| 👨‍💻 **Prepared By** | Muhammad Yasir |
+| 🎓 **Internship** | AI Automation Internship |
+| 🏢 **Organization** | Zayan Soft Tech |
+| 📌 **Task** | Internship Task #04 (Research & Planning) |
+| 📅 **Submission Date** | 14 October 2026 |
+
+---
+<br><br>
 
 **Made with 💚 by [Muhammad Yasir](https://yasirawaninfo.vercel.app/) · AI Automation Internship · Zayan Soft Tech**
 
