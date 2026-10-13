@@ -1,0 +1,1168 @@
+[
+ {
+  "id": "1-introduction",
+  "number": "1",
+  "title": "Introduction",
+  "page": 2,
+  "blocks": [
+   {
+    "type": "p",
+    "text": "Many small and medium-sized businesses still run daily operations on notebooks, spreadsheets, phone calls and chat messages. This works at first, but it becomes slow, error-prone and hard to review as the business grows. Well-chosen digital systems can keep records in one place, reduce repetitive administrative work, give customers a smoother experience and give owners reliable information for decisions."
+   },
+   {
+    "type": "p",
+    "text": "This report researches three practical project ideas for real-world businesses and presents each one as a concept for future evaluation and development: an academy management system, a clinic appointment system and a retail inventory system. None of the proposed systems has been built, deployed or tested as part of this assignment. All features, workflows and technologies are proposals."
+   },
+   {
+    "type": "table",
+    "rows": [
+     [
+      "#",
+      "Project Idea",
+      "Primary Industry",
+      "Core Purpose"
+     ],
+     [
+      "1",
+      "Smart IT Academy Management System",
+      "IT academies and technical training institutes",
+      "Organise admissions, attendance, fees, assignments and results in one platform."
+     ],
+     [
+      "2",
+      "Clinic Management & Appointment Booking System",
+      "Clinics and small healthcare centres",
+      "Simplify appointment booking and the daily schedule (administrative use only)."
+     ],
+     [
+      "3",
+      "Retail Shop Inventory & Stock Management System",
+      "Small and medium retail shops",
+      "Track stock, record sales and flag low-stock products."
+     ]
+    ]
+   },
+   {
+    "type": "callout",
+    "title": "Research Method",
+    "text": "Existing products were reviewed through their official web pages on 12 October 2026. Statements about products are limited to what those pages said and carry numbered citations [1] – [7]; the full list is in Section 7. Text without a citation (features, workflows, technology choices, improvements) is the author's own recommendation. Prices and plan limits mentioned are as stated on those pages at the access date and may change.",
+    "items": []
+   }
+  ]
+ },
+ {
+  "id": "2-project-idea-1-smart-it-academy-s-management-system",
+  "number": "2",
+  "title": "Project Idea #1: Smart IT Academy’s Management System",
+  "page": 3,
+  "blocks": [
+   {
+    "type": "figure",
+    "image": "/images/ideas/it-academy.jpg",
+    "caption": "Figure 1. A technical training class, the kind of environment this system would support. Illustrative image."
+   },
+   {
+    "type": "h2",
+    "id": "2-1-project-title",
+    "number": "2.1",
+    "text": "Project Title"
+   },
+   {
+    "type": "title",
+    "text": "Smart IT Academy’s Management System"
+   },
+   {
+    "type": "industry",
+    "text": "IT academies, computer training institutes, coding academies, vocational training centres"
+   },
+   {
+    "type": "h2",
+    "id": "2-2-project-overview",
+    "number": "2.2",
+    "text": "Project Overview"
+   },
+   {
+    "type": "p",
+    "text": "A responsive web platform that brings the daily operations of an IT academy into one place: admissions, course and batch enrolment, attendance, fee records, assignments, results, class schedules and announcements. Each user sees only the tools relevant to their role."
+   },
+   {
+    "type": "h2",
+    "id": "2-3-problem-statement",
+    "number": "2.3",
+    "text": "Problem Statement"
+   },
+   {
+    "type": "p",
+    "text": "Many small academies handle admissions in registers, attendance on paper or chat groups, and fees in spreadsheets. Student records become scattered, fee balances are hard to confirm, attendance is hard to summarise and results reach students late. Owners spend time reconciling records instead of improving courses, and students cannot easily check their own status."
+   },
+   {
+    "type": "h2",
+    "id": "2-4-target-users",
+    "number": "2.4",
+    "text": "Target Users"
+   },
+   {
+    "type": "table",
+    "rows": [
+     [
+      "Role",
+      "Main Responsibilities in the System"
+     ],
+     [
+      "Academy Owner / Administrator",
+      "Manages courses, batches, user accounts, fee records, reports and system settings."
+     ],
+     [
+      "Teacher / Instructor",
+      "Takes attendance for assigned classes, posts assignments, records assessment marks and follows student progress."
+     ],
+     [
+      "Receptionist / Office Staff",
+      "Registers students, maintains admission records, records fee payments and handles routine administration."
+     ],
+     [
+      "Student",
+      "Views enrolled courses, attendance, fee status, class schedule, assignments, announcements and published results."
+     ]
+    ]
+   },
+   {
+    "type": "note",
+    "text": "Role-based permissions: every account is limited to the data and actions of its role. For example, a teacher cannot edit fee records, and a student sees only their own records."
+   },
+   {
+    "type": "h2",
+    "id": "2-5-key-features",
+    "number": "2.5",
+    "text": "Key Features"
+   },
+   {
+    "type": "features",
+    "rows": [
+     [
+      "Admission and enrolment",
+      "Digital registration form and course or batch assignment."
+     ],
+     [
+      "Course and batch management",
+      "Courses, batches, class timetable and assigned instructors."
+     ],
+     [
+      "Attendance tracking",
+      "Quick per-class marking and attendance summaries per student."
+     ],
+     [
+      "Fee records",
+      "Fee plans, instalments, payment entries and a list of dues (record keeping, not an online payment gateway)."
+     ],
+     [
+      "Assignments and assessments",
+      "Teachers post tasks and record marks."
+     ],
+     [
+      "Results and progress",
+      "Published results and a simple progress view for each student."
+     ],
+     [
+      "Announcements",
+      "Notices to a batch or the whole academy."
+     ],
+     [
+      "Role-based dashboards and reports",
+      "Enrolment, attendance and fee-due summaries for the owner."
+     ]
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "2-6-business-benefits",
+    "number": "2.6",
+    "text": "Business Benefits"
+   },
+   {
+    "type": "li",
+    "text": "Less repetitive paperwork: details are entered once and reused for attendance, fees and results.",
+    "lead": "Less repetitive paperwork:"
+   },
+   {
+    "type": "li",
+    "text": "One reliable record: staff and owners work from the same student, fee and attendance data.",
+    "lead": "One reliable record:"
+   },
+   {
+    "type": "li",
+    "text": "Fewer fee-tracking mistakes: dues and payments are recorded in a consistent format.",
+    "lead": "Fewer fee-tracking mistakes:"
+   },
+   {
+    "type": "li",
+    "text": "Better student experience: students check schedules and status themselves instead of calling the office.",
+    "lead": "Better student experience:"
+   },
+   {
+    "type": "li",
+    "text": "Clearer decisions: summaries show attendance, enrolment and pending fees without manual compilation.",
+    "lead": "Clearer decisions:"
+   },
+   {
+    "type": "h2",
+    "id": "2-7-suitable-industries",
+    "number": "2.7",
+    "text": "Suitable Industries"
+   },
+   {
+    "type": "p",
+    "text": "IT academies and coding bootcamps, computer training institutes, vocational and skills training centres, tuition and test-preparation centres that offer technical courses."
+   },
+   {
+    "type": "h2",
+    "id": "2-8-suggested-tools-and-technologies",
+    "number": "2.8",
+    "text": "Suggested Tools and Technologies"
+   },
+   {
+    "type": "tech",
+    "rows": [
+     [
+      "Technology",
+      "Proposed Use and Reason",
+      "Status"
+     ],
+     [
+      "Responsive web app (React or Next.js)",
+      "One codebase for desktop and mobile browsers, with a dashboard for each role.",
+      "Essential"
+     ],
+     [
+      "Authentication with role-based access (for example Firebase Authentication)",
+      "Secure sign-in and permissions per role.",
+      "Essential"
+     ],
+     [
+      "Cloud database (Firebase Firestore or MongoDB)",
+      "Stores students, batches, attendance, fees and results. A managed backend means less server administration for a small team.",
+      "Essential (choose one)"
+     ],
+     [
+      "CSV import and export",
+      "Loads existing student lists and exports reports to spreadsheets.",
+      "Optional"
+     ],
+     [
+      "Email notifications",
+      "Announcements and fee reminders.",
+      "Optional"
+     ],
+     [
+      "Workflow automation (for example n8n)",
+      "Scheduled fee-due and absence reminders.",
+      "Future option"
+     ]
+    ]
+   },
+   {
+    "type": "note",
+    "text": "Trade-off to evaluate: managed services such as Firebase reduce setup effort but create vendor dependence and usage-based costs."
+   },
+   {
+    "type": "h2",
+    "id": "2-9-basic-workflow-proposed",
+    "number": "2.9",
+    "text": "Basic Workflow (Proposed)"
+   },
+   {
+    "type": "steps",
+    "steps": [
+     {
+      "n": "1",
+      "title": "Student Registration",
+      "text": "Office staff enter admission details"
+     },
+     {
+      "n": "2",
+      "title": "Course / Batch Assignment",
+      "text": "Student is placed in a class"
+     },
+     {
+      "n": "3",
+      "title": "Attendance and Fee Recording",
+      "text": "Teachers and staff update records"
+     },
+     {
+      "n": "4",
+      "title": "Progress and Results",
+      "text": "Assignments, marks, results"
+     },
+     {
+      "n": "5",
+      "title": "Administrative Reports",
+      "text": "Owner reviews summaries"
+     }
+    ],
+    "caption": "Figure 2. Proposed workflow. This is a concept diagram, not a screenshot of working software."
+   },
+   {
+    "type": "h2",
+    "id": "2-10-research-and-existing-examples",
+    "number": "2.10",
+    "text": "Research and Existing Examples"
+   },
+   {
+    "type": "research",
+    "entries": [
+     {
+      "name": "Moodle [1]",
+      "link": "moodle.org",
+      "url": "https://moodle.org/",
+      "offers": "A free, open-source learning management system for building online courses. It can be self-hosted or hosted by providers and the page says paid hosting, support and customisation are offered through Moodle and certified partners.",
+      "lesson": "Shows demand for adaptable, open education platforms. The page presents Moodle as a course-delivery system and does not itself list admissions or fee tracking, so a small academy may need extra plugins or setup effort."
+     },
+     {
+      "name": "Google Classroom [2]",
+      "link": "edu.google.com (Classroom)",
+      "url": "https://edu.google.com/workspace-for-education/products/classroom/",
+      "offers": "Assignments with rubrics and grading, class management and sync with student information systems. The page ties some administrator capabilities to paid Workspace for Education editions.",
+      "lesson": "Strong for classwork and feedback. The features described centre on teaching, so there is room for an operations-first tool that handles admissions, attendance and fees."
+     }
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "2-11-suggested-improvements",
+    "number": "2.11",
+    "text": "Suggested Improvements"
+   },
+   {
+    "type": "li",
+    "text": "Operations first: admissions, attendance and fees come before advanced learning content, which keeps the first version small and affordable.",
+    "lead": "Operations first:"
+   },
+   {
+    "type": "li",
+    "text": "Easy adoption: import existing student lists from spreadsheets and make attendance quick to mark on a phone.",
+    "lead": "Easy adoption:"
+   },
+   {
+    "type": "li",
+    "text": "Low running cost: begin on free or low-cost hosting tiers and avoid mandatory paid add-ons.",
+    "lead": "Low running cost:"
+   },
+   {
+    "type": "li",
+    "text": "Link, do not rebuild: share links to existing learning tools instead of building a full learning management system.",
+    "lead": "Link, do not rebuild:"
+   }
+  ]
+ },
+ {
+  "id": "3-project-idea-2-clinic-management-appointment-booking-system",
+  "number": "3",
+  "title": "Project Idea #2: Clinic Management & Appointment Booking System",
+  "page": 5,
+  "blocks": [
+   {
+    "type": "figure",
+    "image": "/images/ideas/clinic.jpg",
+    "caption": "Figure 3. Front-desk appointment handling at a clinic reception. Illustrative image; it shows no real patient data."
+   },
+   {
+    "type": "h2",
+    "id": "3-1-project-title",
+    "number": "3.1",
+    "text": "Project Title"
+   },
+   {
+    "type": "title",
+    "text": "Clinic Management & Appointment Booking System"
+   },
+   {
+    "type": "industry",
+    "text": "General medical clinics, dental clinics, specialist practices, small healthcare centres"
+   },
+   {
+    "type": "h2",
+    "id": "3-2-project-overview",
+    "number": "3.2",
+    "text": "Project Overview"
+   },
+   {
+    "type": "p",
+    "text": "A web system that lets patients request or book appointments online and lets clinic staff manage doctors' schedules, patient registration, cancellations and the daily list. It is limited to administrative organisation, it provides no diagnosis or clinical decision support."
+   },
+   {
+    "type": "h2",
+    "id": "3-3-problem-statement",
+    "number": "3.3",
+    "text": "Problem Statement"
+   },
+   {
+    "type": "p",
+    "text": "Many small clinics book appointments by phone, walk-in or messaging apps and note them in diaries or spreadsheets. This causes double bookings, unclear doctor availability, forgotten appointments and last-minute rescheduling by phone. Receptionists spend much of the day on repeated calls."
+   },
+   {
+    "type": "h2",
+    "id": "3-4-target-users",
+    "number": "3.4",
+    "text": "Target Users"
+   },
+   {
+    "type": "table",
+    "rows": [
+     [
+      "Role",
+      "Main Responsibilities in the System"
+     ],
+     [
+      "Clinic Owner / Manager",
+      "Oversees operations, staff coordination, appointment activity and administrative reports."
+     ],
+     [
+      "Receptionist / Front Desk",
+      "Registers patients, schedules appointments, handles cancellations and rescheduling and coordinates the daily list."
+     ],
+     [
+      "Doctor / Healthcare Provider",
+      "Views their own schedule and only the patient information needed for their responsibilities."
+     ],
+     [
+      "Patient",
+      "Requests or books appointments, views booking details and receives confirmations or reminders."
+     ]
+    ]
+   },
+   {
+    "type": "note",
+    "text": "Two separate interfaces: a simple, mobile-friendly patient booking page that collects minimal details and an authenticated staff dashboard with role-based access."
+   },
+   {
+    "type": "h2",
+    "id": "3-5-key-features",
+    "number": "3.5",
+    "text": "Key Features"
+   },
+   {
+    "type": "features",
+    "rows": [
+     [
+      "Patient registration",
+      "Minimal details needed for booking and contact."
+     ],
+     [
+      "Doctor availability and scheduling",
+      "Working hours, time slots and day or week calendar views."
+     ],
+     [
+      "Online booking with confirmation",
+      "Patients choose an available slot and receive a confirmation."
+     ],
+     [
+      "Reminders",
+      "Email reminders by default; SMS as an optional integration."
+     ],
+     [
+      "Cancellation and rescheduling",
+      "Patients or staff change bookings and the slot is released."
+     ],
+     [
+      "Daily appointment dashboard",
+      "One list of today's appointments for the front desk."
+     ],
+     [
+      "Basic visit records",
+      "Date, doctor and administrative notes only, kept minimal."
+     ],
+     [
+      "Role-based access and reports",
+      "Staff permissions and simple appointment-activity reports."
+     ]
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "3-6-business-benefits",
+    "number": "3.6",
+    "text": "Business Benefits"
+   },
+   {
+    "type": "li",
+    "text": "Fewer routine phone calls: patients can book and reschedule without calling the front desk.",
+    "lead": "Fewer routine phone calls:"
+   },
+   {
+    "type": "li",
+    "text": "Clearer schedules: one shared calendar helps avoid double bookings and shows doctor availability.",
+    "lead": "Clearer schedules:"
+   },
+   {
+    "type": "li",
+    "text": "Fewer forgotten appointments: reminders may help patients remember their visits.",
+    "lead": "Fewer forgotten appointments:"
+   },
+   {
+    "type": "li",
+    "text": "Better coordination: managers see appointment activity and staff can prepare for the day.",
+    "lead": "Better coordination:"
+   },
+   {
+    "type": "callout",
+    "title": "Privacy and Healthcare Safety Note",
+    "text": "",
+    "items": [
+     "Collect only the data needed for booking and contact. Use secure authentication, role-based permissions, encrypted connections, backups and activity logs. Doctors see only the patient information they need there is no unrestricted access to records.",
+     "No claim of regulatory compliance is made. Compliance with the health-data rules of the relevant country must be verified before real patient data is handled. Diagnosis and automated medical decisions are outside this proposal."
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "3-7-suitable-industries",
+    "number": "3.7",
+    "text": "Suitable Industries"
+   },
+   {
+    "type": "p",
+    "text": "General medical clinics; dental clinics; specialist practices; small healthcare centres and similar appointment-based health services."
+   },
+   {
+    "type": "h2",
+    "id": "3-8-suggested-tools-and-technologies",
+    "number": "3.8",
+    "text": "Suggested Tools and Technologies"
+   },
+   {
+    "type": "tech",
+    "rows": [
+     [
+      "Technology",
+      "Proposed Use and Reason",
+      "Status"
+     ],
+     [
+      "Responsive web app (React or Next.js)",
+      "Patient booking page and staff dashboard from one codebase.",
+      "Essential"
+     ],
+     [
+      "Calendar and scheduling interface",
+      "Doctor schedules with day and week views.",
+      "Essential"
+     ],
+     [
+      "Server-side API with PostgreSQL (MongoDB as an alternative)",
+      "Two patients choosing the same slot at once need consistent handling, which suits transactional storage.",
+      "Essential"
+     ],
+     [
+      "Secure authentication, role-based access, HTTPS and backups",
+      "Protects patient contact data and limits who can see what.",
+      "Essential"
+     ],
+     [
+      "Email notifications; later SMS and workflow automation (for example n8n)",
+      "Confirmations and reminders by email first. SMS may add message fees.",
+      "Optional"
+     ]
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "3-9-basic-workflow-proposed",
+    "number": "3.9",
+    "text": "Basic Workflow (Proposed)"
+   },
+   {
+    "type": "steps",
+    "steps": [
+     {
+      "n": "1",
+      "title": "Appointment Request",
+      "text": "Patient or staff choose doctor and date"
+     },
+     {
+      "n": "2",
+      "title": "Availability Check",
+      "text": "System shows only free slots"
+     },
+     {
+      "n": "3",
+      "title": "Booking Confirmation",
+      "text": "Slot is reserved and confirmed"
+     },
+     {
+      "n": "4",
+      "title": "Appointment and Record Update",
+      "text": "Calendar and minimal record updated"
+     },
+     {
+      "n": "5",
+      "title": "Reminder / Visit Coordination",
+      "text": "Reminder sent; front desk prepares list"
+     }
+    ],
+    "caption": "Figure 4. Proposed workflow. This is a concept diagram, not a screenshot of working software."
+   },
+   {
+    "type": "h2",
+    "id": "3-10-research-and-existing-examples",
+    "number": "3.10",
+    "text": "Research and Existing Examples"
+   },
+   {
+    "type": "research",
+    "entries": [
+     {
+      "name": "Cliniko [3]",
+      "link": "cliniko.com",
+      "url": "https://www.cliniko.com/",
+      "offers": "Practice-management software with scheduling, treatment records, invoices and payments. SMS is charged per message, a 30-day trial is offered and pricing then depends on the number of practitioners.",
+      "lesson": "Shows the usual clinic bundle of scheduling, records and billing. That may be more than a small clinic needs, so this proposal limits scope to appointments and minimal records."
+     },
+     {
+      "name": "Cal.com [4]",
+      "link": "cal.com",
+      "url": "https://cal.com/",
+      "offers": "A scheduling tool with availability rules, buffers, minimum notice and booking limits, calendar sync to prevent double bookings and email and SMS reminders and reschedule notices.",
+      "lesson": "Shows what good booking rules look like. It targets individuals and teams front-desk workflow and patient registration are not described on the page."
+     }
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "3-11-suggested-improvements",
+    "number": "3.11",
+    "text": "Suggested Improvements"
+   },
+   {
+    "type": "li",
+    "text": "Booking first: appointments, reminders and registration only. Billing and full medical records stay out of the first version.",
+    "lead": "Booking first:"
+   },
+   {
+    "type": "li",
+    "text": "One schedule, cost-aware reminders: phone and walk-in bookings go into the same calendar, email by default, SMS only if the clinic chooses it.",
+    "lead": "One schedule, cost-aware reminders:"
+   },
+   {
+    "type": "li",
+    "text": "Privacy by design: minimal data, role-based access and activity logs from the start.",
+    "lead": "Privacy by design:"
+   }
+  ]
+ },
+ {
+  "id": "4-project-idea-3-retail-shop-inventory-stock-management-system",
+  "number": "4",
+  "title": "Project Idea #3: Retail Shop Inventory & Stock Management System",
+  "page": 7,
+  "blocks": [
+   {
+    "type": "figure",
+    "image": "/images/ideas/retail.jpg",
+    "caption": "Figure 5. Checking stock at a retail shop counter with a barcode scanner. Illustrative image."
+   },
+   {
+    "type": "h2",
+    "id": "4-1-project-title",
+    "number": "4.1",
+    "text": "Project Title"
+   },
+   {
+    "type": "title",
+    "text": "Retail Shop Inventory & Stock Management System"
+   },
+   {
+    "type": "industry",
+    "text": "General stores, clothing shops, electronics retailers, convenience stores, other small and medium retailers"
+   },
+   {
+    "type": "h2",
+    "id": "4-2-project-overview",
+    "number": "4.2",
+    "text": "Project Overview"
+   },
+   {
+    "type": "p",
+    "text": "A simple web-based system for small and medium retail shops to keep product records, record stock coming in and going out, record sales, see low-stock products and review basic reports. It stays focused on practical inventory control rather than a full enterprise system."
+   },
+   {
+    "type": "h2",
+    "id": "4-3-problem-statement",
+    "number": "4.3",
+    "text": "Problem Statement"
+   },
+   {
+    "type": "p",
+    "text": "Many small shops track stock in notebooks or spreadsheets updated at the end of the day. Counts drift from reality, items run out unnoticed, over-ordering ties up money and finding a product's current quantity takes time. With several people handling sales and deliveries, discrepancies are hard to trace."
+   },
+   {
+    "type": "h2",
+    "id": "4-4-target-users",
+    "number": "4.4",
+    "text": "Target Users"
+   },
+   {
+    "type": "table",
+    "rows": [
+     [
+      "Role",
+      "Main Responsibilities in the System"
+     ],
+     [
+      "Shop Owner",
+      "Oversees stock, sales records, product information and business reports."
+     ],
+     [
+      "Store Manager",
+      "Manages product records, stock levels, supplier information and replenishment."
+     ],
+     [
+      "Cashier / Sales Staff",
+      "Records sales so that stock changes are reflected accurately."
+     ],
+     [
+      "Inventory / Stock Staff",
+      "Records incoming goods, performs stock counts and flags discrepancies or low-stock items."
+     ]
+    ]
+   },
+   {
+    "type": "note",
+    "text": "In a small shop one person may hold several roles, so one account can carry more than one role. Customers do not need accounts in the initial version."
+   },
+   {
+    "type": "h2",
+    "id": "4-5-key-features",
+    "number": "4.5",
+    "text": "Key Features"
+   },
+   {
+    "type": "features",
+    "rows": [
+     [
+      "Product and category management",
+      "Names, categories, prices and reorder levels."
+     ],
+     [
+      "Stock-in and stock-out records",
+      "Every delivery, adjustment and removal is logged."
+     ],
+     [
+      "Sales recording",
+      "Each sale reduces stock automatically."
+     ],
+     [
+      "Low-stock alerts",
+      "Products at or below their reorder level are highlighted."
+     ],
+     [
+      "Supplier and purchase records",
+      "Who supplies what and what was ordered or received."
+     ],
+     [
+      "Searchable inventory",
+      "Find any product and its current quantity quickly."
+     ],
+     [
+      "Basic reports",
+      "Simple sales and stock summaries for the owner."
+     ],
+     [
+      "User roles and activity tracking",
+      "A log of who changed which record."
+     ]
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "4-6-business-benefits",
+    "number": "4.6",
+    "text": "Business Benefits"
+   },
+   {
+    "type": "li",
+    "text": "More accurate stock records: sales and deliveries update quantities as they happen.",
+    "lead": "More accurate stock records:"
+   },
+   {
+    "type": "li",
+    "text": "Fewer surprises: low-stock flags help owners reorder before items run out.",
+    "lead": "Fewer surprises:"
+   },
+   {
+    "type": "li",
+    "text": "Accountability: an activity log makes discrepancies easier to trace.",
+    "lead": "Accountability:"
+   },
+   {
+    "type": "li",
+    "text": "Better decisions: owners can see which products sell and which sit unsold.",
+    "lead": "Better decisions:"
+   },
+   {
+    "type": "note",
+    "text": "Future enhancements, not in the first version: multi-branch management, advanced accounting and integration with existing POS or accounting tools.",
+    "lead": "Future enhancements, not in the first version:"
+   },
+   {
+    "type": "h2",
+    "id": "4-7-suitable-industries",
+    "number": "4.7",
+    "text": "Suitable Industries"
+   },
+   {
+    "type": "p",
+    "text": "General stores and grocery shops; clothing shops; electronics and mobile accessory retailers; convenience stores; hardware and stationery shops."
+   },
+   {
+    "type": "h2",
+    "id": "4-8-suggested-tools-and-technologies",
+    "number": "4.8",
+    "text": "Suggested Tools and Technologies"
+   },
+   {
+    "type": "tech",
+    "rows": [
+     [
+      "Technology",
+      "Proposed Use and Reason",
+      "Status"
+     ],
+     [
+      "Responsive web app, installable as a PWA (React or Next.js)",
+      "Runs on a shop PC, tablet or phone without a separate app-store app.",
+      "Essential"
+     ],
+     [
+      "Cloud database (Firebase Firestore or MongoDB)",
+      "Stores products, stock movements and sales; low setup effort for small teams.",
+      "Essential (choose one)"
+     ],
+     [
+      "Role-based authentication",
+      "Separate permissions for owner, manager, cashier and stock staff.",
+      "Essential"
+     ],
+     [
+      "CSV (spreadsheet) import and export",
+      "Loads existing stock lists and exports reports; helps non-technical owners start.",
+      "Recommended"
+     ],
+     [
+      "Barcode scanning (USB scanner or phone camera)",
+      "Faster product lookup and stock counts.",
+      "Optional"
+     ],
+     [
+      "Low-stock notifications by email or workflow automation (for example n8n)",
+      "Alerts without opening the dashboard.",
+      "Optional"
+     ]
+    ]
+   },
+   {
+    "type": "note",
+    "text": "Shop internet can be unreliable, so backups and offline-tolerant data entry should be evaluated early."
+   },
+   {
+    "type": "h2",
+    "id": "4-9-basic-workflow-proposed",
+    "number": "4.9",
+    "text": "Basic Workflow (Proposed)"
+   },
+   {
+    "type": "steps",
+    "steps": [
+     {
+      "n": "1",
+      "title": "Product and Stock Entry",
+      "text": "Products and opening stock added"
+     },
+     {
+      "n": "2",
+      "title": "Sale or Stock Movement",
+      "text": "Sales and deliveries recorded"
+     },
+     {
+      "n": "3",
+      "title": "Inventory Update",
+      "text": "Quantities change automatically"
+     },
+     {
+      "n": "4",
+      "title": "Low-Stock Check",
+      "text": "Items below reorder level flagged"
+     },
+     {
+      "n": "5",
+      "title": "Reports and Replenishment",
+      "text": "Owner reviews and reorders"
+     }
+    ],
+    "caption": "Figure 6. Proposed workflow. This is a concept diagram, not a screenshot of working software."
+   },
+   {
+    "type": "h2",
+    "id": "4-10-research-and-existing-examples",
+    "number": "4.10",
+    "text": "Research and Existing Examples"
+   },
+   {
+    "type": "research",
+    "entries": [
+     {
+      "name": "Odoo Inventory [5]",
+      "link": "odoo.com/app/inventory",
+      "url": "https://www.odoo.com/app/inventory",
+      "offers": "Real-time stock tracking, min-max replenishment rules, barcode scanning, multi-warehouse support, valuation methods and reports. The page advertises a free option with unlimited users.",
+      "lesson": "A useful capability benchmark. Its breadth (warehouse routes, picking strategies, valuation) goes well beyond a small shop's daily needs, which suggests setup complexity could be a risk for non-technical staff (author's inference)."
+     },
+     {
+      "name": "Square for Retail [6]",
+      "link": "squareup.com (Retail)",
+      "url": "https://squareup.com/us/en/point-of-sale/retail",
+      "offers": "Real-time inventory, a history of sales, restocks and adjustments, purchase orders with vendor profiles, sales reports and barcode labels. A free plan exists, but the page says moving to Free removes smart inventory management, multi-location stock and barcode label printing.",
+      "lesson": "Advanced inventory functions can sit behind plan upgrades. A small shop benefits when core stock control is available from the start."
+     },
+     {
+      "name": "Zoho Inventory [7]",
+      "link": "zoho.com/inventory",
+      "url": "https://www.zoho.com/inventory/",
+      "offers": "Barcode and RFID tracking, low-stock alerts based on reorder points, multi-channel stock sync and reports. The page lists a free plan limited to 50 orders per month, 1 user and 1 location.",
+      "lesson": "Low-stock alerts are a standard expectation. A one-user limit does not suit shops with owner, cashier and stock roles, so multi-role access belongs in the basic offering."
+     }
+    ]
+   },
+   {
+    "type": "h2",
+    "id": "4-11-suggested-improvements",
+    "number": "4.11",
+    "text": "Suggested Improvements"
+   },
+   {
+    "type": "li",
+    "text": "Core only: products, stock movements, sales and low-stock alerts. Barcode scanning and multi-branch features come later.",
+    "lead": "Core only:"
+   },
+   {
+    "type": "li",
+    "text": "Several roles from day one: owner, cashier and stock staff can have separate access without a one-user limit.",
+    "lead": "Several roles from day one:"
+   },
+   {
+    "type": "li",
+    "text": "Easy start: import an existing stock spreadsheet, and keep the screens plain and simple for non-technical staff.",
+    "lead": "Easy start:"
+   },
+   {
+    "type": "li",
+    "text": "Low running cost: evaluate free or low-cost hosting before recommending any paid service.",
+    "lead": "Low running cost:"
+   }
+  ]
+ },
+ {
+  "id": "5-comparative-analysis",
+  "number": "5",
+  "title": "Comparative Analysis",
+  "page": 9,
+  "blocks": [
+   {
+    "type": "p",
+    "text": "The table compares the three ideas qualitatively. No cost, timeline or return-on-investment figures are given, because actual effort depends on the scope and requirements of a real client."
+   },
+   {
+    "type": "table",
+    "rows": [
+     [
+      "Criterion",
+      "#1 IT Academy",
+      "#2 Clinic Booking",
+      "#3 Retail Inventory"
+     ],
+     [
+      "Primary business problem",
+      "Scattered admission, attendance, fee and result records.",
+      "Manual appointment handling and double bookings.",
+      "Inaccurate stock records and unnoticed low stock."
+     ],
+     [
+      "Main target users",
+      "Owner, teachers, office staff, students.",
+      "Manager, receptionist, doctors, patients.",
+      "Owner, manager, cashier, stock staff."
+     ],
+     [
+      "Core functions",
+      "Enrolment, attendance, fees, assignments, results, reports.",
+      "Scheduling, online booking, reminders, daily dashboard.",
+      "Products, stock in and out, sales, low-stock alerts, reports."
+     ],
+     [
+      "Implementation complexity",
+      "Moderate",
+      "Moderate to high (privacy, slot consistency)",
+      "Low to moderate"
+     ],
+     [
+      "Initial technology approach",
+      "Next.js with Firebase (authentication and database).",
+      "Next.js with secure API, relational database and calendar.",
+      "Next.js installable web app with Firestore or MongoDB and CSV import."
+     ],
+     [
+      "Expected business value",
+      "Organised operations and transparent records.",
+      "Smoother booking and lighter front-desk workload.",
+      "Accurate stock and accountable sales and stock records."
+     ],
+     [
+      "Adoption considerations",
+      "Staff training; moving data from registers and sheets.",
+      "Patient trust, privacy rules, change to reception routine.",
+      "Low digital familiarity, unreliable internet, paper habits."
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "6-conclusion-and-recommended-priority",
+  "number": "6",
+  "title": "Conclusion and Recommended Priority",
+  "page": 9,
+  "blocks": [
+   {
+    "type": "p",
+    "text": "Each idea was rated against seven practical criteria. The ratings are the author's qualitative judgement for comparison, not measured results."
+   },
+   {
+    "type": "table",
+    "rows": [
+     [
+      "Criterion",
+      "#1 IT Academy",
+      "#2 Clinic Booking",
+      "#3 Retail Inventory"
+     ],
+     [
+      "Clarity of the business problem",
+      "Clear",
+      "Clear",
+      "Very clear"
+     ],
+     [
+      "Number and type of users",
+      "Staff and students",
+      "Staff and public patients",
+      "Staff only"
+     ],
+     [
+      "Practical usefulness",
+      "High",
+      "High",
+      "High"
+     ],
+     [
+      "Feasibility of a minimum viable product",
+      "Moderate",
+      "Moderate to lower",
+      "Strongest (narrow core)"
+     ],
+     [
+      "Affordability and ease of adoption",
+      "Moderate",
+      "Moderate",
+      "Strongest"
+     ],
+     [
+      "Potential for future enhancement",
+      "High",
+      "Moderate to high",
+      "Moderate to high"
+     ],
+     [
+      "Privacy and operational risk",
+      "Lower to moderate",
+      "Highest (health-related personal data)",
+      "Lower"
+     ]
+    ]
+   },
+   {
+    "type": "callout",
+    "title": "Recommended Starting Point: Project #3, Retail Shop Inventory & Stock Management System",
+    "text": "It has the narrowest and clearest first version (products, stock movements, sales and low-stock alerts), serves staff users only, and handles mainly business data rather than sensitive personal data. That keeps privacy risk lower and makes it the easiest of the three to explain, build in stages and adopt. Its problem is also visible every day to a shop owner: stock that does not match reality. Project #1 is a natural second step, since its operations-first scope is also well defined. Project #2 needs the most careful planning because of patient privacy and the need for dependable slot booking.",
+    "items": []
+   },
+   {
+    "type": "p",
+    "text": "This priority is a starting recommendation. It may change after requirements are gathered from actual businesses and the available budget, skills and data-protection needs are known."
+   }
+  ]
+ },
+ {
+  "id": "7-research-sources",
+  "number": "7",
+  "title": "Research Sources",
+  "page": 10,
+  "blocks": [
+   {
+    "type": "sources",
+    "entries": [
+     {
+      "no": "[1]",
+      "name": "Moodle",
+      "relevance": "Open-source learning management system (Project #1).",
+      "url": "https://moodle.org/",
+      "accessed": "12 Oct 2026"
+     },
+     {
+      "no": "[2]",
+      "name": "Google Classroom for Education",
+      "relevance": "Assignments, grading and class management (Project #1).",
+      "url": "https://edu.google.com/workspace-for-education/products/classroom/",
+      "accessed": "12 Oct 2026"
+     },
+     {
+      "no": "[3]",
+      "name": "Cliniko",
+      "relevance": "Clinic practice-management and scheduling software (Project #2).",
+      "url": "https://www.cliniko.com/",
+      "accessed": "12 Oct 2026"
+     },
+     {
+      "no": "[4]",
+      "name": "Cal.com",
+      "relevance": "Appointment scheduling with availability rules and reminders (Project #2).",
+      "url": "https://cal.com/",
+      "accessed": "12 Oct 2026"
+     },
+     {
+      "no": "[5]",
+      "name": "Odoo Inventory",
+      "relevance": "Inventory and replenishment features (Project #3).",
+      "url": "https://www.odoo.com/app/inventory",
+      "accessed": "12 Oct 2026"
+     },
+     {
+      "no": "[6]",
+      "name": "Square for Retail",
+      "relevance": "Retail inventory and point-of-sale features (Project #3).",
+      "url": "https://squareup.com/us/en/point-of-sale/retail",
+      "accessed": "12 Oct 2026"
+     },
+     {
+      "no": "[7]",
+      "name": "Zoho Inventory",
+      "relevance": "Inventory control with reorder-point alerts (Project #3).",
+      "url": "https://www.zoho.com/inventory/",
+      "accessed": "12 Oct 2026"
+     }
+    ]
+   },
+   {
+    "type": "note",
+    "text": "All sources are official product pages, reviewed on the access date shown. Product details can change, so they should be rechecked before use. Technology suggestions (React or Next.js, Firebase, MongoDB, PostgreSQL and similar) are the author's recommendations; their official documentation was not reviewed for this report and should be checked before implementation."
+   }
+  ]
+ }
+]
