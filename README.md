@@ -1,13 +1,21 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b3238,50:0b7d70,100:3fbfae&height=230&section=header&text=Practical%20Project%20Ideas&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Research%20%26%20Planning%20for%20Real-World%20Businesses&descSize=20&descAlignY=58" alt="Header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b3238,50:0b7d70,100:3fbfae&height=230&section=header&text=Practical%20Project%20Ideas&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Research%20%26%20Planning%20for%20Real-World%20Businesses&descSize=20&descAlignY=58" alt="Practical Project Ideas Header" width="100%"/>
+
+</div>
+
+<br>
+
 
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=0B7D70&center=true&vCenter=true&width=760&lines=Smart+IT+Academy+Management+System;Clinic+Management+%26+Appointment+Booking+System;Retail+Shop+Inventory+%26+Stock+Management+System;Researched%2C+Compared%2C+Rated+and+Prioritised" alt="Typing animation"/></a>
 
 **Internship Task #04 · AI Automation Internship · Zayan Soft Tech**
 
+*Research Identify Practical Project Real World Businesses*
 *Innovating Digital Solutions | Empowering Digital Futures*
+
+<br>
 
 <p>
   <img src="https://img.shields.io/badge/Task-%2304-0b7d70?style=for-the-badge&logo=bookstack&logoColor=white" alt="Task 04"/>
@@ -28,15 +36,19 @@
   <img src="https://img.shields.io/badge/Search-Ctrl%2FCmd%2BK-6366f1?style=flat-square&logo=algolia&logoColor=white" alt="Search"/>
 </p>
 
+<br>
+
 <h3>
   <a href="#-live-demo">🌐 Live Demo</a> ·
-  <a href="#-the-three-project-ideas">💡 Ideas</a> ·
+  <a href="#-the-three-project-ideas"> Ideas</a> ·
   <a href="#-proposed-workflows">🔄 Workflows</a> ·
-  <a href="#-comparative-analysis">⚖️ Comparison</a> ·
-  <a href="#-getting-started">🚀 Run</a>
+  <a href="#-comparative-analysis"> Comparison</a> ·
+  <a href="#-getting-started"> Run</a>
 </h3>
 
 </div>
+
+<br>
 
 ---
 
@@ -105,9 +117,9 @@ This report researches **three practical project ideas** for real-world business
 
 ## 🌐 Live Demo
 
-> 🔗 **Live site:** *add your deployed URL here after deployment*
+> 🔗 **Live site:** *[https://research-identify-practical-project.vercel.app/](https://research-identify-practical-project.vercel.app/)*
 >
-> Set `NEXT_PUBLIC_SITE_URL` to that URL so the SEO metadata is correct.
+
 
 ---
 
@@ -598,6 +610,7 @@ All sources are **official product pages**, reviewed on **12 Oct 2026**. Product
 | Assignment 01 — Dashboard | https://ai-automation-research.vercel.app/ |
 | Assignment 02 — Dashboard | https://customer-inq-automation-workflow.vercel.app/ |
 | Assignment 03 — Dashboard | https://ai-lead-qualification-requirement-auto.vercel.app/ |
+| Assignment 04 — Dashboard | https://research-identify-practical-project.vercel.app/ |
 
 <div align="center">
 
