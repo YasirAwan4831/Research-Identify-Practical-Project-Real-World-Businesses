@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b3238,50:0b7d70,100:3fbfae&height=240&section=header&text=Practical%20Project%20Ideas&fontSize=56&fontColor=ffffff&animation=fadeIn" alt="Practical Project Ideas" />
+
+<div align="center">
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b3238,50:0b7d70,100:3fbfae&height=230&section=header&text=Practical%20Project%20Ideas&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Research%20%26%20Planning%20for%20Real-World%20Businesses&descSize=20&descAlignY=58" alt="Practical Project Ideas Header" width="100%"/>
 
 </div>
